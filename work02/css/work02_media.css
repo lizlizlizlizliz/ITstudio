@@ -1,0 +1,377 @@
+@media screen and (max-width: 1100px) {
+	.header_container{
+		width:100%;
+    }
+    .main_main_header{
+    	width:100%;
+    }
+    .main_main_header{
+    	width:100%;
+    }
+    .main_main_main{
+    	width:100%;
+    }
+    .productions{
+    	width:100%;
+    }
+    .themes{
+    	width:100%;
+    }
+    .skills{
+    	width:100%;
+    }
+    .community{
+    	width:100%;
+    }
+    .repair{
+    	width:100%;
+    }
+    .contact{
+    	width:100%;
+    }
+    .lectures div{
+    	width:100%;
+    }
+    .policy{
+    	width:100%;
+    }
+    .plan {
+    	width:100%;
+    }
+    .footer_header{
+    	width:100%;
+    }
+    .footer_main{
+    	width:100%;
+    }
+    .footer_footer{
+    	width:100%;
+    }
+    .bottom{
+    	width:100%;
+    }
+    .lectures h2{
+    	padding: 150px 0px 30px 7%;
+    	width:40%;
+    }
+    .lectures h5{
+    	padding: 0px 0px 30px 7%;
+    }
+    .lectures h6{
+    	padding: 0px 0px 30px 7%;
+    }
+    .footer div{
+    	width:97%;
+    	margin:0 auto;
+    }
+    .footer_main div{
+    	float:left;
+    	width:25%;
+    }
+}/*div宽度由像素变为百分比*/
+@media screen and (max-width: 1920px) and (min-width: 1367px){
+    .main_main{
+    	background-size:100% 700px;
+    }
+}/*嗯……背景图片问题*/
+@media screen and (max-width:1068px ) and (min-width: 737px){
+	.productions div{
+		width:33%;
+		margin:0 auto;
+		margin-bottom: 30px;
+    }
+    .themes div{
+    	width:70%;
+    	margin: 30px 15% 50px 15%;
+    }
+    .themes img{
+    	float:left;
+    }
+    .skills div{
+    	width:70%;
+    	margin: 30px 15% 30px 15%;
+    	text-align: center;
+    }
+    .skills h2{
+    	text-align:center;
+    }
+    .skills h4{
+    	text-align: center;
+    }
+    .skills h6{
+    	text-align: center;
+    }
+    .repair div{
+    	width:70%;
+    	margin: 0 auto 50px auto;
+    }
+    .repair div div{
+    	float:left;
+    	width:90%;
+    	height:234px;
+    	border-bottom: 1px solid #DEDEDE;
+    	border-right:none;
+    	margin:0 5%;
+    }
+    .repair img{
+    	margin-top: 30px;
+    }
+}
+@media screen and (max-width: 767px) {
+	.header{
+		display:none;
+	}
+	.header_767{
+		width:100%;
+		background: #2A292A;
+		margin:0 auto;
+	}
+	.header_767 li{
+		float:left;
+		color:white;
+		text-align: center;
+		font-weight:lighter;
+		font-size:30px;
+		line-height: 45px;
+		width:30%;
+    }
+    .list {
+    	text-align: left!important;
+    	float:left;
+    	margin-left: 10px;
+    }
+    .list a:link{
+    	color:white;
+    }
+    .list a:visited{
+    	color:white;
+    }
+    .list a:hover{
+    	color:#919191;
+    }
+    .list a:active{
+    	color:white;
+    }
+    .header_bag{
+    	background-position: right!important;
+    	float:right!important;
+    	margin-right: 10px;
+    }
+    .header_bag:hover{
+    	background:url(https://www.apple.com/ac/globalnav/2.0/zh_CN/images/globalnav/bag/image_large.svg) no-repeat;
+    	background-position: right;
+    }
+    .footer_767{
+    	width:100%;
+    	height:350px;
+    	background:#F2F2F2;
+    	margin:0 auto;
+    }
+    .footer_header{
+    	width:90%;
+    	margin:0 auto;
+    	height:60px;
+    }
+    .footer_main_767{
+    	width:90%;
+    	height:150px;
+    	margin:0 auto;
+    }
+    .footer_main_767 li{
+    	font-size: 12px;
+    	line-height: 40px;
+    	height:40px;
+    	border-bottom:1px solid #DEDEDE;
+    	width:100%;
+    }
+    .footer_main_767_special{
+    	border-top:1px solid #DEDEDE;
+    }
+    .footer_main_767 a:link{
+    	color:black;
+    }
+    .footer_main_767 a:visited{
+    	color:black;
+    }
+    .footer_main_767 a:hover{
+    	color:black;
+    	text-decoration:none;
+    }
+    .footer_main_767 a:active{
+    	color:black;
+    }
+    .footer_footer {
+    	width:90%;
+    	height:40px;
+    	margin:0 auto;
+    	border-bottom: none;
+    }
+    .footer_footer h6{
+    	font-size: 12px;
+    	float:left;
+    	color:#6E6E6F;
+    	line-height: 60px;
+    }
+    .china{
+    	float:left;
+    	width:100%;
+    	margin:0 auto;
+    }
+    .china h6{
+    	float:left;
+    	font-size: 12px;
+    	color:#6E6E6F;
+    }
+    .china h6:hover{
+	text-decoration: underline;
+    }
+    .china img{
+    	float:left;
+    	margin-left: 5%;
+    }
+    .bottom{
+    	width:90%;
+    	margin:0 auto;
+    	text-align: left;
+    	margin-top: 10px;
+    }
+    .bottom h6{
+    	float:none;
+    	line-height: 30px;
+    }
+    .footer{
+    	display: none;
+    }
+}/*改变header和footer*/
+@media screen and (min-width: 768px) {
+	.header_767{
+		display:none;
+	}
+	.footer_767{
+		display: none;
+	}
+}/*隐藏header_767和footer_767*/
+@media screen and (max-width: 736px) {
+	.main_main{
+		background: url(../images/main_main_background.jpg) no-repeat;
+		width:100%;
+		height:500px;
+		background-size:100% 270px;
+	}
+	.main_main_main{
+		margin-top: 270px;
+	}
+	.main_main_main h1{
+		font-size: 35px;
+    }
+    .main_main_main h3{
+    	font-size: 15px;
+    }
+    .main_main_main input{
+    	border:1px solid #DEDEDE;
+    	font-size:15px;
+    	background-size:25px 25px;
+    	padding-left:45px;
+    	height:45px;
+    }
+    .main_main_main input:focus{
+    	border:1px solid #DEDEDE;
+    	outline-width: 1px;
+    }
+    .productions h3{
+    	font-size: 17px;
+    }
+    .productions div{
+		width:50%;
+		margin:0 auto;
+		margin-bottom: 50px;
+    }
+    .themes h2{
+    	font-size: 30px;
+    }
+    .themes div{
+    	width:90%;
+    	margin: 30px 5% 50px 5%;
+    }
+    .themes img{
+    	float:none;
+    }
+    .skills div{
+    	width:80%;
+    	margin: 30px 10% 30px 10%;
+    	text-align: center;
+    }
+    .skills h2{
+    	text-align:center;
+    	font-size: 30px;
+    }
+    .skills h4{
+    	text-align: center;
+    	font-size: 15px;
+    }
+    .skills h6{
+    	text-align: center;
+    	font-size: 15px;
+    }
+    .skills img{
+    	width:300px;
+    	height:162px;
+    	margin: 0px 30px 0 0;
+    }
+    .community h2{
+    	font-size: 30px;
+    }
+    .repair h2{
+    	font-size: 30px;
+    }
+    .repair div{
+    	width:90%;
+    	margin: 0 auto 50px auto;
+    }
+    .repair div div{
+    	float:left;
+    	width:90%;
+    	height:234px;
+    	border-bottom: 1px solid #DEDEDE;
+    	border-right:none;
+    	margin:0 5%;
+    }
+    .repair img{
+    	margin-top: 30px;
+    }
+    .contact h2{
+    	font-size: 30px;
+    }
+    .lectures{
+    	width:100%;
+    	height:500px;
+    	margin:0 auto;
+    	background:url(../images/lectures_background.jpg) no-repeat; 
+    	background-position: 50% 0%; 
+    	background-size:1800px 320px;
+    	border-bottom: 1px solid #DEDEDE;
+    }
+    .lectures h2{
+    	margin: 0 auto!important;
+    	padding:340px 0px 30px 10%;
+    	width:100%;
+    	font-size:30px; 
+    }
+    .lectures h5{
+    	padding: 0px 0px 30px 10%;
+    }
+    .lectures h6{
+    	padding: 0px 0px 30px 10%;
+    }
+    .policy h4{
+    	font-size: 17px;
+    }
+    .plan h2{
+    	font-size: 17px;
+    }
+}
+@media screen and (max-width: 800px) {
+	.main_main_main input{
+		width:80%;
+	}
+}/*将input宽度由像素改为百分比*/

@@ -19,44 +19,50 @@ html {overflow-y: scroll;}
 	margin:0 auto;
 }
 .header{
-	height:45px;
 	width:100%;
 	background: #2A292A;
+	margin:0 auto;
+}
+.header_container{
+	height:45px;
+	width:1100px;
 	margin:0 auto;
 }
 .header li{
 	float:left;
 	color:white;
-	text-align: justify;
+	text-align: center;
 	font-weight:normal;
 	font-size:14px;
 	line-height: 45px;
-	margin:0 3%;
+	width:11%;
 }
-#header_logo{
-	margin-left: 14%;
+.header_logo{
 	background:url(../images/logo3.png) no-repeat;
 	width:25px;height:45px;
+	background-position: center;
 }
-#header_logo:hover{
+.header_logo:hover{
 	background:url(../images/logo3_gray.png) no-repeat;
+	background-position:center;
 }
-#header_search{
+.header_search{
 	background:url(https://www.apple.com/ac/globalnav/2.0/zh_CN/images/globalnav/search/image_large.svg) no-repeat;
 	width:25px;height:45px;
+	background-position:center;
 }
-#header_search:hover{
-	background:url(..images/search_gray.png) no-repeat;
+.header_search:hover{
+	background:url(https://www.apple.com/ac/globalnav/2.0/zh_CN/images/globalnav/search/image_large.svg) no-repeat;
+	background-position:center;
 }
-#header_bag{
+.header_bag{
 	background:url(https://www.apple.com/ac/globalnav/2.0/zh_CN/images/globalnav/bag/image_large.svg) no-repeat;
 	width:25px;height:45px;
+	background-position:center;
 }
-#header_bag:hover{
-	background:url(../images/bag_gray.png) no-repeat;
-}
-#header_bag{
-	margin-right: 14%;
+.header_bag:hover{
+	background:url(https://www.apple.com/ac/globalnav/2.0/zh_CN/images/globalnav/bag/image_large.svg) no-repeat;
+	background-position: center;
 }
 .header a:link{
 	color:white;
@@ -70,8 +76,8 @@ html {overflow-y: scroll;}
 .header a:active{
 	color:white;
 }
-#header_support a{
-	color:#919191;
+.header_support a{
+	color:#919191!important;
 }
 .main_main{
 	background: url(../images/main_main_background.jpg) no-repeat;
@@ -80,44 +86,42 @@ html {overflow-y: scroll;}
 	height:700px;
 	background-size:140% 700px;
 }
-#main_main_header{
-	width:72%;
-	height:55px;
+.main_main_header{
+	width:1000px;
 	margin:0 auto;
 	border-bottom: 1px solid #919191;
-
 }
-#main_main_header h1{
+.main_main_header h1{
 	display: inline-block;
 	float:left;
 	font-size: 25px;
 	font-weight:lighter;
 	line-height: 55px;
 }
-#main_main_header h5{
+.main_main_header h5{
 	display: inline-block;
 	float:right;
 	font-size: 10px;
 	margin-right: 2%;
 	line-height: 55px;
 }
-#main_main_header a:link{
+.main_main_header a:link{
 	color:black;
 }
-#main_main_header a:visited{
+.main_main_header a:visited{
 	color:black;
 }
-#main_main_header a:hover{
+.main_main_header a:hover{
 	color:#338CCC;
 }
-#main_main_header a:active{
+.main_main_header a:active{
 	color:black;
 }
-#main_main_main{
-	width:72%;
+.main_main_main{
+	width:1000px;
 	margin:0 auto;
 }
-#main_main_main h1{
+.main_main_main h1{
 	margin:0 auto;
 	font-size: 50px;
 	text-align: center;
@@ -125,7 +129,7 @@ html {overflow-y: scroll;}
 	margin-top: 90px;
 	color: #333333;
 }
-#main_main_main h3{
+.main_main_main h3{
 	margin:0 auto;
 	font-size: 20px;
 	text-align: center;
@@ -133,7 +137,7 @@ html {overflow-y: scroll;}
 	color: #333333;
 	margin-top: 20px;
 }
-#main_main_main input{
+.main_main_main input{
 	width:700px;
 	height:55px;
 	display: block;
@@ -148,33 +152,29 @@ html {overflow-y: scroll;}
 	border:0px;
 	background-color:white;
 }
-#main_main_main input:focus{
+.main_main_main input:focus{
 	border:0px!important;
 	outline-width: 0px;
 }
 .productions{
-	width:72%;
-	height:300px;
+	width:1000px;
 	margin:0 auto;
 }
 .productions h3{
 	text-align:center;
 	font-size: 20px;
-	margin-top: 50px;
+	margin: 50px 0;
 	font-weight: lighter;
 }
 .productions div{
 	float:left;
 	text-align:center;
-	width:12%;
-}
-.productions img{
-	width:85%;
-	height:85%;
-	margin-bottom: 15px;
+	width:163px;
+	height:160px;
+	margin-top: 30px;
 }
 .productions a:link{
-	display: inline-block;
+	display: block;
 	color:#666666;
 }
 .productions a:visited{
@@ -188,34 +188,52 @@ html {overflow-y: scroll;}
 	color:#666666;
 }
 .productions_applewatch{
-	margin:50px 2% 0 2%;
+	margin-top:50px;
 }
 .productions_applewatch img{
-	width:60%;
-	height:60%;
+	width:65px;
+	height:123px;
+	padding-bottom: 15px;
 }
-.productions_ipnone{
-	margin: 49px 2% 0 2%;
+.productions_iphone{
+	margin-top:50px;
+}
+.productions_iphone img{
+	width:92px;
+	height:123px;
+	padding-bottom: 15px;
 }
 .productions_ipad{
-	margin:56px 2% 0 2%;
+	margin-top:50px;
 }
 .productions_ipad img{
-	width:110%;
-	height:110%;
+	width:126px;
+	height:123px;
+	padding-bottom: 15px;
 }
 .productions_mac{
-	margin:68px 2% 0 2%;
+	margin-top:50px;
 }
 .productions_mac img{
-	width:110%;
-	height:110%;
+	width:141px;
+	height:123px;
+	padding-bottom: 15px;
 }
 .productions_appleid{
-	margin:52px 2% 0 2%;
+	margin-top:50px;
+}
+.productions_appleid img{
+	width:96px;
+	height:123px;
+	padding-bottom: 15px;
 }
 .productions_itunes{
-	margin: 52px 2% 0 2%;
+	margin-top:50px;
+}
+.productions_itunes img{
+	width:96px;
+	height:123px;
+	padding-bottom: 15px;
 }
 .productions_list{
 	width:100%;
@@ -226,7 +244,7 @@ html {overflow-y: scroll;}
 	line-height: 72px;
 	text-align: center;
 	display: block;
-	margin:0 auto;
+	margin:30px auto;
 }
 .productions_list div{
 	margin:0 auto;
@@ -234,16 +252,15 @@ html {overflow-y: scroll;}
 .productions_list h3{
 	display: block;
 	margin:0 auto;
+	font-size: 15px;
 }
 .productions_list span{
-	font-size: 20px;
+	font-size: 25px;
 	font-weight: lighter;
 }
 .themes{
-	width:72%;
-	height:440px;
+	width:1000px;
 	margin:0 auto;
-	clear:both;
 }
 .themes h2{
 	text-align: center;
@@ -254,12 +271,12 @@ html {overflow-y: scroll;}
 .themes div{
 	float:left;
 	width:40%;
-	margin: 2% 5% 2% 5%;
+	margin: 30px 5% 50px 5%;
 	text-align: center;
 }
 .themes img{
-	width:60%;
-	height:60%;
+	width:240px;
+	height:150px;
 	margin-bottom: 15px;
 }
 .themes h3{
@@ -301,32 +318,31 @@ html {overflow-y: scroll;}
 	width:100%;
 }
 .skills{
-	width:72%;
-	height:370px;
+	width:1000px;
 	margin:0 auto;
 }
 .skills div{
 	width:40%;
 	float:left;
-	margin: 2% 0% 1% 9%;
+	margin: 50px 0% 50px 9%;
 	text-align: left;
 }
 .skills img{
-	width:100%;
-	height:100%;
-	margin: 30px 30px 0 0;
+	width:400px;
+	height:212px;
+	margin: 0px 30px 0 0;
 }
 .skills h2{
 	text-align:left;
 	font-size: 40px;
-	margin: 50px 0 20px 0;
+	margin: 0px 0 30px 0;
 	color:#333333;
 }
 .skills h4{
 	text-align: left;
 	font-size: 20px;
 	line-height: 35px;
-	margin-bottom: 15px;
+	margin-bottom: 25px;
 	color:#333333;
 }
 .skills a:link{
@@ -350,7 +366,7 @@ html {overflow-y: scroll;}
 	float: left;
 }
 .community{
-	width:72%;
+	width:1000px;
 	height:350px;
 	margin:0 auto;
 	text-align: center;
@@ -384,15 +400,10 @@ html {overflow-y: scroll;}
 .community a:active{
 	color:#338CCC;
 }
-
 .repair{
-	width:72%;
-	height:500px;
+	width:1000px;
 	margin:0 auto;
 	text-align: center;
-}
-.repair a{
-
 }
 .repair h2{
 	font-size: 40px;
@@ -401,24 +412,24 @@ html {overflow-y: scroll;}
 }
 .repair h5{
 	font-size: 15px;
-	margin: 0px 0 30px 0;
+	margin: 0px 0 50px 0;
 	color:#333333;
 }
 .repair div{
 	width:100%;
-	height:240px;
 	background:#F5F5F5;
+	margin-bottom: 50px;
 }
 .repair div div{
 	float:left;
 	width:33%;
 	height:170px;
 	border-right: 1px solid #DEDEDE;
-	margin-top:35px;
+	margin:50px 0;
 }
 .repair img{
-	width:15%;
-	height:28%;
+	width:40px;
+	height:40px;
 }
 .repair div div h2{
 	font-size: 16px;
@@ -442,11 +453,11 @@ html {overflow-y: scroll;}
 	text-decoration: underline;
 	color:#338CCC;
 }
-#repair_right{
-	border:none;
+.repair_right{
+	border:none!important;
 }
 .contact{
-	width:72%;
+	width:1000px;
 	height:270px;
 	margin:0 auto;
 	text-align: center;
@@ -491,26 +502,30 @@ html {overflow-y: scroll;}
 	background-size:1800px 520px;
 	text-align: left;
 }
+.lectures div{
+	width:1000px;
+	margin:0 auto;
+}
 .lectures h2{
 	font-size: 45px;
-	padding: 150px 0px 30px 170px;
+	padding: 150px 0px 30px 0px;
 	color:#333333;
 }
 .lectures h5{
 	font-size: 15px;
-	padding: 0px 0px 30px 170px;
+	padding: 0px 0px 30px 0px;
 	color:#333333;
 }
 .lectures h6{
 	font-size:15px;
-	padding: 0px 0px 30px 170px;
+	padding: 0px 0px 30px 0px;
 	color:#338CCC;
 }
 .lectures h6:hover{
 	text-decoration: underline;
 }
 .policy{
-	width:72%;
+	width:1000px;
 	height:190px;
 	margin:0 auto;
 	text-align: center;
@@ -530,7 +545,7 @@ html {overflow-y: scroll;}
 	text-decoration: underline;
 }
 .plan {
-	width:72%;
+	width:1000px;
 	height:380px;
 	margin:0 auto;
 	text-align: center;
@@ -553,12 +568,12 @@ html {overflow-y: scroll;}
 	height:300px;
 	background:#F2F2F2;
 }
-.footer li:hover{
+.footer_main li:hover{
 	text-decoration: underline;
 	color:#6E6E6F;
 }
 .footer_header{
-	width:72%;
+	width:1000px;
 	margin:0 auto;
 	height:60px;
 }
@@ -572,18 +587,14 @@ html {overflow-y: scroll;}
 	color:#6E6E6F;
 }
 .footer_main{
-	width:72%;
+	width:1000px;
 	height:150px;
 	margin:0 auto;
 }
 .footer_main div{
 	float:left;
-	margin:0 15% 0 0;
+	width:25%;
 	height:170px;
-}
-.footer_footer{
-	width:72%;
-	height:40px;
 }
 .footer_main h6{
 	font-size: 12px;
@@ -596,8 +607,10 @@ html {overflow-y: scroll;}
 	line-height: 20px;
 }
 .footer_footer {
-	width:72%;
+	width:1000px;
+	height:40px;
 	margin:0 auto;
+	border-bottom: 1px solid #DEDEDE;
 }
 .footer_footer h6{
 	font-size: 12px;
@@ -611,10 +624,10 @@ html {overflow-y: scroll;}
 	text-decoration: underline;
 }
 .bottom{
-	width:72%;
+	width:1000px;
 	margin:0 auto;
 	text-align: left;
-	margin-top: 5px;
+	margin-top: 10px;
 }
 .bottom h6{
 	font-size: 12px;
@@ -629,21 +642,24 @@ html {overflow-y: scroll;}
 	color:#6E6E6F;
 	border-right:1px solid #DEDEDE;
 }
+.special{
+	border: none!important;
+}
 .china{
 	float:right;
+	width:150px;
 }
 .china h6{
 	float:right;
 	line-height: 20px;
+	margin-top: 0px;
 }
 .china h6:hover{
 	text-decoration: underline;
 }
-#special{
-	border: none;
-}
 .china img{
 	width:20px;
 	height:20px;
-	margin-right: 5px;
+	margin:0px 5px  0 0 ;
+	float:right;
 }
