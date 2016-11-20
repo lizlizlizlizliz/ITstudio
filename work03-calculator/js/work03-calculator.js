@@ -85,8 +85,11 @@ function operatorIn(obj){
 	}//倒数
 
 	if(operator == "±"){
-		if(inputTemp.value.indexOf("-")>0){
-			inputTemp.value = inputTemp.value - "-";
+		if((inputTemp.value - 0) > 0){
+			inputTemp.value = "-" + inputTemp.value;
+		}
+		else if((inputTemp.value - 0) < 0){
+			inputTemp.value = Math.abs(inputTemp.value);
 		}
 	}//正负号
 
