@@ -4,36 +4,37 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="css/work03-calculator.css">
 	<script type="text/javascript" src="js/work03-calculator.js"></script>
-	<title>(｡•ˇ‸ˇ•｡)计算器</title>
+	<title>╰(●'◡'●)╮计算器</title>
 </head>
 <body>
 	<div class="main">
-		<input type="text" value="0" id="textbox">
+		<input type="text" value="0" id="textbox" name="val">
 		<div class="button clearfix">
-			<button>(°ー°〃)</button>
-			<button onclick="operatorIn(this)">√</button>
-			<button onclick="operatorIn(this)">x²</button>
-			<button onclick="operatorIn(this)">1/x</button>
-			<button onclick="clearSecond()">CE</button>
-			<button onclick="clearAll()">C</button>
-			<button onclick="clearOne()">←</button>
-			<button onclick="operatorIn(this)">÷</button>
-			<button onclick="numIn(this)">7</button>
-			<button onclick="numIn(this)">8</button>
-			<button onclick="numIn(this)">9</button>
-			<button onclick="operatorIn(this)">×</button>
-			<button onclick="numIn(this)">4</button>
-			<button onclick="numIn(this)">5</button>
-			<button onclick="numIn(this)">6</button>
-			<button onclick="operatorIn(this)">-</button>
-			<button onclick="numIn(this)">1</button>
-			<button onclick="numIn(this)">2</button>
-			<button onclick="numIn(this)">3</button>
-			<button onclick="operatorIn(this)">+</button>
-			<button onclick="operatorIn(this)">±</button>
-			<button onclick="numIn(this)">0</button>
-			<button onclick="numIn(this)">.</button>
-			<button onclick="orderIn(this)">=</button>
+			<button>(｡•ˇ‸ˇ•｡)</button>
+			<button onclick="others(this)" name="root">√</button>
+			<button onclick="others(this)">x²</button>
+			<button onclick="others(this)" name="upDown">1/x</button>
+			<button onclick="clearSecond()" name="CE">CE</button>
+			<button onclick="clearAll()" name="C">C</button>
+			<button onclick="clearOne()" name="back">←</button>
+			<button onclick="operatorIn(this)" name="div">÷</button>
+			<button onclick="numIn(this)" name="seven">7</button>
+			<button onclick="numIn(this)" name="eight">8</button>
+			<button onclick="numIn(this)" name="nine">9</button>
+			<button onclick="operatorIn(this)" name="multi">×</button>
+			<button onclick="numIn(this)" name="four">4</button>
+			<button onclick="numIn(this)" name="five">5</button>
+			<button onclick="numIn(this)" name="six">6</button>
+			<button onclick="operatorIn(this)" name="minus">-</button>
+			<button onclick="numIn(this)" name="one">1</button>
+			<button onclick="numIn(this)" name="two">2</button>
+			<button onclick="numIn(this)" name="three">3</button>
+			<button onclick="operatorIn(this)" name="plus">+</button>
+			<button onclick="sign()" name="oppo">±</button>
+			<button onclick="numIn(this)" name="zero">0</button>
+			<button onclick="numIn(this)" name="dot">.</button>
+			<button onclick="orderIn(this)" name="equal">=</button>
+			<!-- console.log("first="+first+" second="+second+" operator="+operator+" pointer="+pointer+" afterCaculation="+afterCaculation) -->
 		</div>
 	</div>
 </body>
