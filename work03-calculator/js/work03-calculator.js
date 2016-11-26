@@ -51,8 +51,8 @@ function clearSecond()//清空上一串数
 
 function clearOne()//退格
 {
-	if(inputTemp.value != "Error" && afterCaculation == false)
-	{//Error不能退格且运算结果不能退格
+	if(inputTemp.value != "Error" && afterCaculation == false && !one)
+	{//Error不能退格且运算结果不能退格且一步运算结果不能退格
 		if(pointer == 1)
 		{
 			inputTemp.value = inputTemp.value.substring(0,inputTemp.value.length - 1);
@@ -222,7 +222,7 @@ function operatorIn(obj)//运算符
 			operator = obj.innerHTML;
 		}
 		else
-			operator = obj.innerHTML;
+			operator = obj.innerHTML;//以最后一个运算符为准
 		if(inputTemp.value=="NaN"||inputTemp.value=="Infinity"||inputTemp.value=="null"||inputTemp.value=="undefined")
 		{
 		 	inputTemp.value="Error";
